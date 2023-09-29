@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-app.get('/', (req, res) => res.send('./hesam'));
+app.get('/', (req, res) => res.send('./Mohy'));
 
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
 
@@ -27,7 +27,7 @@ client.on("ready", () => {
     client.user.setPresence({
     status: 'idle',
     activity: {
-        name: `hesam-tvs.ir`,
+        name: `Kire Khar`,
         type: 'LISTENING',
     }
   })
